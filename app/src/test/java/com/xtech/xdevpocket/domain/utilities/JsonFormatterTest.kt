@@ -23,11 +23,13 @@ class JsonFormatterTest {
         assertTrue(result is JsonResult.Success)
     }
 
-    @Test
-    fun `format returns error for malformed json`() {
-        val result = JsonFormatter.format("{name: x-DevPocket}")
-        assertTrue(result is JsonResult.Error)
-    }
+// In JsonFormatterTest.kt
+@Test
+fun `format returns error for malformed json`() {
+    // Unclosed brace is guaranteed to fail
+    val result = JsonFormatter.format("""{"name": "x-DevPocket" """) 
+    assertTrue(result is JsonResult.Error)
+}
 
     @Test
     fun `format returns error for empty input`() {
