@@ -1,6 +1,6 @@
 # x-DevPocket
 
-[![Android CI](https://github.com/your-username/x-devpocket/actions/workflows/android-ci.yml/badge.svg)](https://github.com/your-username/x-devpocket/actions/workflows/android-ci.yml)
+[![Android CI](https://github.com/XTech-Head/x-DevPocket/actions/workflows/android-ci.yml/badge.svg)](https://github.com/XTech-Head/x-DevPocket/actions/workflows/android-ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Min SDK](https://img.shields.io/badge/minSdk-26-informational)
 ![Kotlin](https://img.shields.io/badge/Kotlin-Jetpack%20Compose-7F52FF?logo=kotlin&logoColor=white)
@@ -9,7 +9,6 @@
 
 x-DevPocket is an offline-first Android developer utility toolkit. No backend, no account, no API keys, no subscriptions — just a fast, private, pocket-sized toolbox for the operations developers reach for every day.
 
-> Replace `your-username` in the badge URL above with the actual GitHub org/user once this is pushed, so the CI badge points at the real workflow.
 
 ---
 
@@ -34,9 +33,6 @@ x-DevPocket brings common developer operations onto your phone: JSON formatting,
 - **Global Search** — Find any tool instantly from Home
 - **Settings** — Theme (dark/light/system), history/auto-copy/clear behavior, data clearing
 
-## Screenshots
-
-*(Add screenshots here once you've run the app — Home, JSON Formatter, Hash Generator, and Settings are good ones to capture.)*
 
 ## Tech Stack
 
